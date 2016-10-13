@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>贪吃蛇</title>
+		<link rel="stylesheet" href="css/snake.css" />
+		<script type="text/javascript" src="js/snake.js"></script>
+	</head>
+
+	<body>
+		<div id="snake">
+			<div id="header">
+				<label id="speedtext">速度：</label>
+				<select id="speed" onclick="changeSpeed()" onchange="document.body.focus()">
+					<option value="1">1X</option>
+					<option value="2">2X</option>
+					<option value="4">4X</option>
+					<option value="8">8X</option>
+					<option value="16">16X</option>
+				</select>
+				<input id="btn" type="button" value="开始游戏" onclick="start()" />
+				<label id="score">Score：&nbsp;0 分</label>
+			</div>
+			<div id="sbody">
+				
+			</div>
+		</div>
+	</body>
+
+</html>

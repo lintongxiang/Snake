@@ -1,0 +1,72 @@
+div {
+	/*border: dotted crimson;*/
+}
+#speedtext{
+	color: deeppink;
+	font-family: "黑体";
+	margin-left: 40px;
+	font-size:22px ;
+}
+#speed{
+	color: green;
+	font-family: "新宋体";
+	font-style: initial;
+	font-size: 20px;
+}
+#score {
+	color: yellow;
+	font-family: "黑体";
+	margin-left: 40px;
+	font-size: x-large;
+}
+
+#snake {
+	width: 99%;
+	background-image: url(../img/q.jpg);
+	background-size: 100% auto;
+	position: absolute;
+	height: 98% ;
+}
+
+#header {
+	margin-top: 30px;
+	width: 100%;
+	height: 10%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#sbody {
+	width: 80%;
+	height: 80%;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+#map {
+	border-radius: 30px;
+	margin: auto;
+	border: solid 30px cyan;
+	background-color: plum;
+}
+
+td {
+	border-radius: 5px;
+	width: 16px;
+	height: 16px;
+	/*border:1px solid chartreuse;*/
+}
+
+#btn {
+	margin-left: 40px;
+	width: 150px;
+	height: 35px;
+	border:1px solid aquamarine;
+	background-color: rosybrown;
+	font-size: 20px;
+	font-family: "黑体";
+	color: blueviolet;
+}
